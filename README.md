@@ -1,6 +1,6 @@
 # ApplyDost – Job Application Tracker
 
-A full-stack web application that helps job seekers manage and track their job applications, interviews, statuses, and resumes in one place.
+A full-stack web application that helps job seekers manage and track their job applications, interviews, statuses, and resumes, and application progress in one place.
 
 ## 🚀 Features
 
@@ -87,6 +87,24 @@ HOW TO RUN LOCALLY
 7. Open in Browser
    https://127.0.0.1:5000
 
+📄 Resume Management
+ApplyDost allows users to upload a PDF resume for a specific job application.
+
+Users can:
+Upload a resume
+Download the uploaded resume
+Remove the resume
+Maintain different resumes for different applications
+
+📊 Application Tracking
+The dashboard helps users keep track of their job search by organizing applications based on their current status.
+Example statuses:
+Applied
+Interview
+Offer
+Rejected
+Saved   
+
 🎯 Purpose
 ApplyDost was developed to provide a simple and centralized platform for managing job applications during the job search process.
 Instead of maintaining application details across spreadsheets or notes, users can track companies, roles, application status, interviews, and resumes from a single dashboard.
@@ -100,8 +118,9 @@ Instead of maintaining application details across spreadsheets or notes, users c
 6.Cloud database support
 7.Deployment to a cloud platform
 
-👩‍💻 Author
+👩‍💻 Developer
 Amrita Shivhare
+
 BE – Computer Science & Engineering
 
 **IF YOU FIND THIS PROJECT USEFUL, CONSIDER GIVING IT A STAR*
