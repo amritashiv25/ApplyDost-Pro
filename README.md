@@ -1,36 +1,109 @@
-# ApplyDost
+# ApplyDost – Job Application Tracker
 
-A full-stack job application tracker built with Flask, SQLite, HTML, CSS and vanilla JavaScript.
+A full-stack web application that helps job seekers manage and track their job applications, interviews, statuses, and resumes in one place.
 
-## Included
-- Account registration/login with hashed passwords and per-user records
-- Add/edit/delete applications, status and priority
-- SQLite persistence across browser refreshes
-- Search, status filter and sorting
-- Dashboard counts, interview/offer rates and goal progress
-- Drag-and-drop Kanban board
-- Interview calendar list
-- CSV export
-- Resume/job-description keyword overlap helper
-- Recruiter, notes, job URL, resume version and application history fields
-- Dark mode
+## 🚀 Features
 
-## Run locally
-1. Install Python 3.10 or newer.
-2. Open a terminal in this folder.
-3. Create and activate a virtual environment (optional but recommended):
-   - Windows: `py -m venv .venv` then `.venv\\Scripts\\activate`
-   - macOS/Linux: `python3 -m venv .venv` then `source .venv/bin/activate`
-4. Install packages: `pip install -r requirements.txt`
-5. Start: `python app.py`
-6. Open `http://127.0.0.1:5000`
+- 🔐 User Login & Registration
+- 📝 Add, Edit and Delete Job Applications
+- 📊 Application Dashboard with Statistics
+- 🔎 Search and Filter Applications
+- ↕️ Sort Applications
+- 📌 Track Application Status
+- 🗂️ Kanban-style Job Board
+- 📅 Interview Tracking
+- 📄 Upload PDF Resume for Applications
+- ⬇️ Download Uploaded Resume
+- 🗑️ Remove Resume
+- 🌙 Dark Mode
+- 📤 Export Applications to CSV
+- 💾 SQLite Database
 
-Create an account in the app. Data is stored in `instance/jobtracker.db`.
+## 🛠️ Tech Stack
 
-## Important before public deployment
-- Set a long random `SECRET_KEY` environment variable.
-- Use HTTPS and secure cookie settings.
-- Add CSRF protection, rate limiting, password reset/email verification and production server configuration.
-- Use PostgreSQL for a hosted multi-user deployment and configure backups.
-- The resume matcher is a basic keyword-overlap tool, not an ATS score or hiring prediction.
-- The app does not send real push/email reminders; interview dates are displayed in the calendar view.
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+- Python
+- Flask
+
+### Database
+- SQLite
+- SQLAlchemy
+
+### Tools
+- Git
+- GitHub
+- Visual Studio Code
+
+## 📂 Project Structure
+
+```text
+ApplyDost/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   ├── style.css
+│   └── app.js
+│
+├── instance/
+│   └── jobtracker.db
+│
+└── uploads/
+    └── resumes/
+
+NOTE: The local database and uploaded resumes are excluded from GitHub using .gitignore.
+
+HOW TO RUN LOCALLY 
+1. Clone the repository
+    git clone https://github.com/amritashiv25/ApplyDost-Pro.git
+
+2. Open the project
+   cd ApplyDost-Pro
+
+3. Create a virtual environment
+   python -m venv .venv
+
+4. Activate the virtual environment 
+   Windows:
+           .venv\Scripts\activate
+
+5. Install dependencies
+   pip install -r requirements.txt
+
+6. Run the application
+   python app.py
+
+7. Open in Browser
+   https://127.0.0.1:5000
+
+🎯 Purpose
+ApplyDost was developed to provide a simple and centralized platform for managing job applications during the job search process.
+Instead of maintaining application details across spreadsheets or notes, users can track companies, roles, application status, interviews, and resumes from a single dashboard.
+
+🔮 Future Improvements
+1.Email notifications for interviews
+2.Job deadline reminders
+3.Resume-to-JD keyword matching
+4.Job portal API integration
+5.Analytics and application success rate
+6.Cloud database support
+7.Deployment to a cloud platform
+
+👩‍💻 Author
+Amrita Shivhare
+BE – Computer Science & Engineering
+
+**IF YOU FIND THIS PROJECT USEFUL, CONSIDER GIVING IT A STAR*
+
+
