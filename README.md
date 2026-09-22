@@ -120,8 +120,30 @@ Instead of maintaining application details across spreadsheets or notes, users c
 
 👩‍💻 Developer
 Amrita Shivhare
-
 BE – Computer Science & Engineering
+
+## 📸 PROJECT IMAGES
+
+### 🔐 Login
+![Login](projectimages/screenshots/login.png)
+
+### 📊 Dashboard
+![Dashboard](projectimages/screenshots/dashboard.png)
+
+### 📋 My Applications
+![My Applications](projectimages/screenshots/myapplication.png)
+
+### 📌 Kanban Board
+![Kanban Board](projectimages/screenshots/kanban.png)
+
+### 📅 Interview Calendar
+![Calendar](projectimages/screenshots/calendar.png)
+
+### 📄 Resume Matcher
+![Resume Matcher](projectimages/screenshots/resumematcher.png)
+
+### 🔍 Resume Match Analysis
+![Match Analysis](projectimages/screenshots/analyzerMatcher.png)
 
 **IF YOU FIND THIS PROJECT USEFUL, CONSIDER GIVING IT A STAR*
 
